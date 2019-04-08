@@ -706,7 +706,7 @@ void  display::md5deep_display_hash(file_data_hasher_t *fdht,const hash_context_
 	if ((fdht->ocb->piecewise_size) || (fdht->is_stdin()==false))    {
 	    if (mode_timestamp)      {
 		struct tm my_time;
-		portable_gmtime(&my_time,&fdht->ctime);
+		portable_gmtime(&my_time,&fdht->mtime);
 		char time_str[MAX_TIME_STRING_LENGTH];
 		
 		// The format is four digit year, two digit month, 

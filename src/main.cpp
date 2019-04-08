@@ -221,7 +221,7 @@ void state::md5deep_usage(void)
 	ocb.status("-a and -A add a single hash to the positive or negative matching set");
 	ocb.status("-b        - prints only the bare name of files; all path information is omitted");
 	ocb.status("-l        - print relative paths for filenames");
-	ocb.status("-t        - print GMT timestamp (ctime)");
+	ocb.status("-t        - print GMT timestamp (mtime)");
 	ocb.status("-i/I <size> - only process files smaller/larger than SIZE");
 	ocb.status("-v        - display version number and exit");
 	ocb.status("-d        - output in DFXML; -u - Escape Unicode; -W FILE - write to FILE.");
